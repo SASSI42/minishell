@@ -41,3 +41,26 @@ Clone the repository and compile the project using the provided Makefile:
 git clone [https://github.com/SASSI42/minishell.git](https://github.com/SASSI42/minishell.git)
 cd minishell
 make
+```
+
+### Running the Shell
+```bash
+./minishell
+```
+
+### Example Usage
+
+```bash
+minishell-$ echo "Hello 42" > file.txt
+minishell-$ cat file.txt | grep "42" | wc -l
+1
+minishell-$ export TEST="success"
+minishell-$ echo $TEST
+success
+minishell-$ exit
+```
+
+## 👨‍💻 Authors
+[Mohammed Sassi](https://github.com/SASSI42)
+
+hakaraou
