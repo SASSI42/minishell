@@ -38,7 +38,7 @@ This project is a recreation of a basic shell program, inspired by bash. It invo
 Clone the repository and compile the project using the provided Makefile:
 
 ```bash
-git clone [https://github.com/SASSI42/minishell.git](https://github.com/SASSI42/minishell.git)
+git clone https://github.com/SASSI42/minishell.git minishell
 cd minishell
 make
 ```
